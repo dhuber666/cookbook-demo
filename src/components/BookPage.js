@@ -16,7 +16,7 @@ const styles = {
     alignItems: "center",
     padding: "10px",
     flexDirection: "column",
-    border: "2px solid grey",
+    boxShadow: "inset 3px 0 3px 3px #000",
     width: "100%",
     height: "100%"
   }

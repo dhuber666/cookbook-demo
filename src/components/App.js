@@ -49,11 +49,12 @@ const styles = {
   slidedown: {
     height: "150px",
     width: "100vw",
-    background: "red",
+    background: "#552C00",
     display: "flex",
     padding: "20px",
     justifyContent: "space-around",
-    alignItems: "center"
+    alignItems: "center",
+    boxShadow: "3px 3px 5px 6px #ccc"
   },
   main: {
     padding: 0
@@ -61,18 +62,20 @@ const styles = {
   slidecontent: {
     flexBasis: "40%",
     height: "50%",
-    background: "white",
+    background: "rgb(214,179,49)",
+    background:
+      "linear-gradient(90deg, rgba(214,179,49,0.8655170686438638) 0%, rgba(255,159,0,1) 100%)",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
     flexDirection: "column",
-    color: "red",
+    color: "black",
     fontFamily: "Roboto"
   },
   divider: {
     height: "650px",
     width: "6px",
-    background: "red",
+    background: "#552C00",
     position: "absolute",
     left: "0",
     right: "0",
@@ -84,9 +87,9 @@ const styles = {
   triangle: {
     width: 0,
     height: 0,
-    borderLeft: "8px solid transparent",
-    borderRight: "8px solid transparent",
-    borderBottom: "8px solid white",
+    borderLeft: "3px solid transparent",
+    borderRight: "5px solid transparent",
+    borderBottom: "10px solid #552C00",
     position: "absolute",
     bottom: 0
   }
